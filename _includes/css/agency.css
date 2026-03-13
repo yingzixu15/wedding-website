@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
+    border-color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .navbar-default .navbar-toggle {
@@ -207,10 +207,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.navbar }};
     font-weight: 400;
-    letter-spacing: 1px;
-    color: #fff;
+    letter-spacing: 2px;
+    color: #545968;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #{{ site.data.template.color.secondary-dark }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
