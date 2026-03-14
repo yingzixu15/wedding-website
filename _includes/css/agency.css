@@ -7,11 +7,11 @@
 body {
     overflow-x: hidden;
     font-family: {{ site.data.template.font.primary }};
-    color: #{{ site.data.template.color.navbar }};
+    color: #{{ site.data.template.color.header }};
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .text-primary {
@@ -43,11 +43,15 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 h1,
-h2,
+h2 {
+    font-family: {{ site.data.template.font.header-primary }};
+    font-weight: 700;
+}
+
 h3,
 h4,
 h5,
@@ -85,7 +89,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-primary:active,
@@ -126,6 +130,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
+    letter-spacing: 2px;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
@@ -137,7 +142,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-xl:active,
@@ -184,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -207,7 +212,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.navbar }};
+    font-family: {{ site.data.template.font.legible }};
     font-weight: 400;
     letter-spacing: 2px;
     color: #545968;
@@ -231,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 @media(min-width:768px) {
@@ -327,7 +332,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 section h3.section-subheading {
@@ -347,7 +352,8 @@ section h3.section-subheading {
 
 .service-heading {
     margin: 15px 0;
-    text-transform: none;
+    font-family: {{ site.data.template.font.legible }};
+    font-size: 20px;
 }
 
 #portfolio .portfolio-item {

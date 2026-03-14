@@ -1,15 +1,14 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: B38947
-  secondary: B38947
   navbar: D1B8AD
+  header: A68C84
   secondary-dark: 595959
-  muted: 595959
 
 # Font Families
 font:
   header-primary: '"Dancing Script",Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   header-secondary: 'Elsie,"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
-  navbar: 'Lato, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  legible: 'Lato, "Helvetica Neue",Helvetica,Arial,sans-serif'
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'

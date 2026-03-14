@@ -1,0 +1,169 @@
+.emoji {
+  display:inline-block;
+  font:normal normal normal 14px/1 "Noto Emoji";
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+.emoji-lg {
+  font-size:1.33333333em;
+  line-height:.75em;
+  vertical-align:-15%
+}
+.emoji-2x {
+  font-size:2em
+}
+.emoji-3x {
+  font-size:3em
+}
+.emoji-4x {
+  font-size:4em
+}
+.emoji-5x {
+  font-size:5em
+}
+.emoji-fw {
+  width:1.28571429em;
+  text-align:center
+}
+.emoji-ul {
+  padding-left:0;
+  margin-left:2.14285714em;
+  list-style-type:none
+}
+.emoji-ul>li {
+  position:relative
+}
+.emoji-li {
+  position:absolute;
+  left:-2.14285714em;
+  width:2.14285714em;
+  top:.14285714em;
+  text-align:center
+}
+.emoji-li.emoji-lg {
+  left:-1.85714286em
+}
+.emoji-border {
+  padding:.2em .25em .15em;
+  border:solid .08em #eee;
+  border-radius:.1em
+}
+.emoji-pull-left {
+  float:left
+}
+.emoji-pull-right {
+  float:right
+}
+.emoji.emoji-pull-left {
+  margin-right:.3em
+}
+.emoji.emoji-pull-right {
+  margin-left:.3em
+}
+.pull-right {
+  float:right
+}
+.pull-left {
+  float:left
+}
+.emoji.pull-left {
+  margin-right:.3em
+}
+.emoji.pull-right {
+  margin-left:.3em
+}
+.emoji-spin {
+  -webkit-animation:emoji-spin 2s infinite linear;
+  animation:emoji-spin 2s infinite linear
+}
+.emoji-pulse {
+  -webkit-animation:emoji-spin 1s infinite steps(8);
+  animation:emoji-spin 1s infinite steps(8)
+}
+@-webkit-keyframes emoji-spin {
+  0% {
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg)
+  }
+  100% {
+    -webkit-transform:rotate(359deg);
+    transform:rotate(359deg)
+  }
+}
+@keyframes emoji-spin {
+  0% {
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg)
+  }
+  100% {
+    -webkit-transform:rotate(359deg);
+    transform:rotate(359deg)
+  }
+}
+.emoji-rotate-90 {
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg)
+}
+.emoji-rotate-180 {
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform:rotate(180deg)
+}
+.emoji-rotate-270 {
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform:rotate(270deg);
+  -ms-transform:rotate(270deg);
+  transform:rotate(270deg)
+}
+.emoji-flip-horizontal {
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform:scale(-1, 1);
+  -ms-transform:scale(-1, 1);
+  transform:scale(-1, 1)
+}
+.emoji-flip-vertical {
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform:scale(1, -1);
+  -ms-transform:scale(1, -1);
+  transform:scale(1, -1)
+}
+:root .emoji-rotate-90,
+:root .emoji-rotate-180,
+:root .emoji-rotate-270,
+:root .emoji-flip-horizontal,
+:root .emoji-flip-vertical {
+  filter:none
+}
+.emoji-stack {
+  position:relative;
+  display:inline-block;
+  width:2em;
+  height:2em;
+  line-height:2em;
+  vertical-align:middle
+}
+.emoji-stack-1x,
+.emoji-stack-2x {
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center
+}
+.emoji-stack-1x {
+  line-height:inherit
+}
+.emoji-stack-2x {
+  font-size:2em
+}
+.emoji-inverse {
+  color:#fff
+}
+
+.eh-wedding:before { content: '💒'; }
+.eh-dress:before { content: '👗'; }
+.eh-round_pushpin:before {content: '\1F4CD';}
