@@ -160,11 +160,22 @@
 .emoji-stack-2x {
   font-size:2em
 }
+.emoji-icon-timeline {
+  font-size:100px
+}
 .emoji-inverse {
   color:#fff
 }
 
-.eh-wedding:before { content: '💒'; }
-.eh-dress:before { content: '👗'; }
-.eh-round_pushpin:before {content: '\1F4CD';}
-.eh-gift:before {content: '\1F381';}
+.wedding:before { content: '💒'; }
+.dress:before { content: '👗'; }
+.round_pushpin:before {content: '\1F4CD';}
+.gift:before {content: '\1F381';}
+.clinking_glasses:before {content: '\1F942';}
+.man_dancing:before {content: '\1F57A';}
+.partying_face:before {content: '\1F973';}
+.door:before {content: '\1F6AA';}
+.bouquet:before {content: '\1F490';}
+.cocktail:before {content: '\1F378';}
+.pretzel:before {content: '\1F968';}
+.moon:before {content: '\1F31B';}
