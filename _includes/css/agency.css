@@ -47,12 +47,12 @@ a.active {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: {{ site.data.template.font.header-primary }};
     font-weight: 700;
 }
 
-h3,
 h4,
 h5,
 h6 {
@@ -335,12 +335,17 @@ section h2.section-heading {
     font-size: 60px;
 }
 
+section h3.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.legible }};
     font-size: 16px;
-    /* font-style: italic; */
     font-weight: 400;
 }
 
@@ -662,13 +667,13 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/flowers_bg_transparent.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #1a1a4b;
 }
 
 section#contact .form-group {
